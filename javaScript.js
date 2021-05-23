@@ -91,8 +91,7 @@ const addNewNote = (text = '') => {
     textArea.addEventListener('change', (event) => {
         // const value = event.target.value;
         textArea.innerHTML = event.target.value;;
-        updateLocalStorage();
-     
+      
     })
 
     if (textArea.value.length != 0) {
